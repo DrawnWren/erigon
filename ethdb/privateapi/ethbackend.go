@@ -147,6 +147,17 @@ func (s *EthBackendServer) Subscribe(r *remote.SubscribeRequest, subscribeServer
 	defer clean()
 	newSnCh, newSnClean := s.events.AddNewSnapshotSubscription()
 	defer newSnClean()
+	pendingLogsCh := make(chan []byte)
+	onPendingLogs := func(logs types.Logs) error {
+		// TODO: is putting the pendingtx subcription here the best choice?
+		b, err := rlp.EncodeToBytes(logs)
+		if err != nil {
+			return err
+		}
+		pendingLogsCh <- b
+		return nil
+	}
+	s.events.AddPendingLogsSubscription(onPendingLogs)
 	log.Info("new subscription to newHeaders established")
 	defer func() {
 		if err != nil {
@@ -175,6 +186,13 @@ func (s *EthBackendServer) Subscribe(r *remote.SubscribeRequest, subscribeServer
 			}
 		case <-newSnCh:
 			if err = subscribeServer.Send(&remote.SubscribeReply{Type: remote.Event_NEW_SNAPSHOT}); err != nil {
+				return err
+			}
+		case logsRlp := <-pendingLogsCh:
+			if err = subscribeServer.Send(&remote.SubscribeReply{
+				Type: remote.Event_PENDING_LOGS,
+				Data: logsRlp,
+			}); err != nil {
 				return err
 			}
 		}
