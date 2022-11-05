@@ -98,8 +98,8 @@ func (s *MiningServer) BroadcastPendingLogs(l types.Logs) error {
 	if err != nil {
 		return err
 	}
-	reply := &proto_txpool.OnPendingBlockReply{RplBlock: b}
-	s.pendingBlockStreams.Broadcast(reply)
+	reply := &proto_txpool.OnPendingLogsReply{RplLogs: b}
+	s.pendingLogsStreams.Broadcast(reply)
 	return nil
 }
 
