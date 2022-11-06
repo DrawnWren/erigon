@@ -25,10 +25,10 @@ import (
 	"math/bits"
 
 	proto_sentry "github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/forkid"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/core/forkid"
+	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/syncreticcapital/erigon/rlp"
 )
 
 // Constants to match up protocol versions and messages

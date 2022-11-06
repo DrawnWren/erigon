@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/syncreticcapital/erigon/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

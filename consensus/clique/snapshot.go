@@ -28,10 +28,10 @@ import (
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/dbutils"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/common/dbutils"
+	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/syncreticcapital/erigon/params"
 	"github.com/ledgerwatch/log/v3"
 )
 

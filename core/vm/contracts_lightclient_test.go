@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/core/vm/lightclient"
+	"github.com/syncreticcapital/erigon/core/vm/lightclient"
 )
 
 const (

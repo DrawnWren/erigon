@@ -24,10 +24,10 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common/length"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/turbo/rlphacks"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/crypto"
+	"github.com/syncreticcapital/erigon/rlp"
+	"github.com/syncreticcapital/erigon/turbo/rlphacks"
 )
 
 type hasher struct {

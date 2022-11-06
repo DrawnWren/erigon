@@ -3,11 +3,11 @@ package commands
 import (
 	"context"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/hexutil"
-	"github.com/ledgerwatch/erigon/core/forkid"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/common/hexutil"
+	"github.com/syncreticcapital/erigon/core/forkid"
+	"github.com/syncreticcapital/erigon/rpc"
+	"github.com/syncreticcapital/erigon/turbo/rpchelper"
 )
 
 // Forks is a data type to record a list of forks passed by this node

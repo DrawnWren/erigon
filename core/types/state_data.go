@@ -1,6 +1,6 @@
 package types
 
-import "github.com/ledgerwatch/erigon/common"
+import "github.com/syncreticcapital/erigon/common"
 
 // StateSyncData represents state received from Ethereum Blockchain
 type StateSyncData struct {

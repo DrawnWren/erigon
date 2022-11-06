@@ -17,7 +17,7 @@
 // Package bind generates Ethereum contract Go bindings.
 //
 // Detailed usage document and tutorial available on the go-ethereum Wiki page:
-// https://github.com/ledgerwatch/erigon/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
+// https://github.com/syncreticcapital/erigon/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
 package bind
 
 import (
@@ -30,7 +30,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/ledgerwatch/erigon/accounts/abi"
+	"github.com/syncreticcapital/erigon/accounts/abi"
 	"github.com/ledgerwatch/log/v3"
 )
 

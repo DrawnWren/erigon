@@ -5,8 +5,8 @@ import (
 	"crypto/ecdsa"
 	"time"
 
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/enode"
+	"github.com/syncreticcapital/erigon/crypto"
+	"github.com/syncreticcapital/erigon/p2p/enode"
 	"github.com/ledgerwatch/log/v3"
 )
 

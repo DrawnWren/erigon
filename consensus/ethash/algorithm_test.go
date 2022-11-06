@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/hexutil"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/common/hexutil"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

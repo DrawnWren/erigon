@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/turbo/snapshotsync"
+	"github.com/syncreticcapital/erigon/core/rawdb"
+	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/syncreticcapital/erigon/eth/stagedsync/stages"
+	"github.com/syncreticcapital/erigon/params"
+	"github.com/syncreticcapital/erigon/turbo/snapshotsync"
 	"github.com/stretchr/testify/assert"
 )
 

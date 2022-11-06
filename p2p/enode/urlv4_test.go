@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/enr"
+	"github.com/syncreticcapital/erigon/crypto"
+	"github.com/syncreticcapital/erigon/p2p/enr"
 )
 
 func init() {

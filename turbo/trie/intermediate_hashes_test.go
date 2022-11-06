@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/hexutil"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/common/hexutil"
 	"github.com/stretchr/testify/assert"
 )
 

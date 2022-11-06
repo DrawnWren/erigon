@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/syncreticcapital/erigon/common"
 )
 
 // MarshalJSON marshals as JSON.

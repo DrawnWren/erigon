@@ -17,8 +17,8 @@
 package params
 
 import (
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/params/networkname"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/params/networkname"
 )
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on

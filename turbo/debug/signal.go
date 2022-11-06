@@ -8,7 +8,7 @@ import (
 	"os/signal"
 	"runtime/pprof"
 
-	_debug "github.com/ledgerwatch/erigon/common/debug"
+	_debug "github.com/syncreticcapital/erigon/common/debug"
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/sys/unix"
 )

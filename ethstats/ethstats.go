@@ -33,13 +33,13 @@ import (
 
 	"github.com/gorilla/websocket"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/cmd/sentry/sentry"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/node"
+	"github.com/syncreticcapital/erigon/cmd/sentry/sentry"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/consensus"
+	"github.com/syncreticcapital/erigon/core/rawdb"
+	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/syncreticcapital/erigon/eth/stagedsync/stages"
+	"github.com/syncreticcapital/erigon/node"
 	"github.com/ledgerwatch/log/v3"
 )
 

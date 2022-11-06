@@ -5,8 +5,8 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/kv"
 	libstate "github.com/ledgerwatch/erigon-lib/state"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/core/types/accounts"
 )
 
 func bytesToUint64(buf []byte) (x uint64) {

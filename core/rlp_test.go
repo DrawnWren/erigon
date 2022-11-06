@@ -25,13 +25,13 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/u256"
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/common/u256"
+	"github.com/syncreticcapital/erigon/consensus/ethash"
+	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/syncreticcapital/erigon/crypto"
+	"github.com/syncreticcapital/erigon/params"
+	"github.com/syncreticcapital/erigon/rlp"
 )
 
 func getBlock(transactions int, uncles int, dataSize int) *types.Block {

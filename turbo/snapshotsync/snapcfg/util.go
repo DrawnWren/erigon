@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	snapshothashes "github.com/ledgerwatch/erigon-snapshot"
-	"github.com/ledgerwatch/erigon/params/networkname"
+	"github.com/syncreticcapital/erigon/params/networkname"
 	"github.com/pelletier/go-toml/v2"
 	"golang.org/x/exp/slices"
 )

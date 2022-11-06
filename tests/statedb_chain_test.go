@@ -21,19 +21,19 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/ledgerwatch/erigon/ethdb/olddb"
+	"github.com/syncreticcapital/erigon/ethdb/olddb"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/accounts/abi/bind"
-	"github.com/ledgerwatch/erigon/accounts/abi/bind/backends"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/tests/contracts"
-	"github.com/ledgerwatch/erigon/turbo/stages"
+	"github.com/syncreticcapital/erigon/accounts/abi/bind"
+	"github.com/syncreticcapital/erigon/accounts/abi/bind/backends"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/core"
+	"github.com/syncreticcapital/erigon/core/state"
+	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/syncreticcapital/erigon/crypto"
+	"github.com/syncreticcapital/erigon/params"
+	"github.com/syncreticcapital/erigon/tests/contracts"
+	"github.com/syncreticcapital/erigon/turbo/stages"
 )
 
 func TestSelfDestructReceive(t *testing.T) {

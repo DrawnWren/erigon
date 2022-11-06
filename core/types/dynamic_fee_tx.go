@@ -24,10 +24,10 @@ import (
 	"math/bits"
 
 	"github.com/holiman/uint256"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/u256"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/common/u256"
+	"github.com/syncreticcapital/erigon/params"
+	"github.com/syncreticcapital/erigon/rlp"
 )
 
 type DynamicFeeTransaction struct {

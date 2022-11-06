@@ -19,12 +19,12 @@ package core_test
 import (
 	"testing"
 
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/eth/stagedsync"
-	"github.com/ledgerwatch/erigon/ethdb/olddb"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/turbo/stages"
+	"github.com/syncreticcapital/erigon/consensus/ethash"
+	"github.com/syncreticcapital/erigon/core"
+	"github.com/syncreticcapital/erigon/eth/stagedsync"
+	"github.com/syncreticcapital/erigon/ethdb/olddb"
+	"github.com/syncreticcapital/erigon/params"
+	"github.com/syncreticcapital/erigon/turbo/stages"
 )
 
 // Tests that simple header verification works, for both good and bad blocks.

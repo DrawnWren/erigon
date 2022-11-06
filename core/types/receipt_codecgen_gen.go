@@ -7,7 +7,7 @@ package types
 
 import (
 	"errors"
-	pkg1_common "github.com/ledgerwatch/erigon/common"
+	pkg1_common "github.com/syncreticcapital/erigon/common"
 	codec1978 "github.com/ugorji/go/codec"
 	pkg2_big "math/big"
 	"runtime"

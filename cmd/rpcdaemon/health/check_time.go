@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/syncreticcapital/erigon/rpc"
 )
 
 var (

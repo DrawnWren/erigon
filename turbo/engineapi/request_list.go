@@ -7,8 +7,8 @@ import (
 	"github.com/emirpasic/gods/maps/treemap"
 
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/core/types"
 )
 
 // This is the status of a newly execute block.

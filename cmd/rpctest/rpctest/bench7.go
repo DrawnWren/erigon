@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/syncreticcapital/erigon/common"
 )
 
 func Bench7(erigonURL, gethURL string) {

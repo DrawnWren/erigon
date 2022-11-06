@@ -3,9 +3,9 @@ package commands
 import (
 	"context"
 
-	"github.com/ledgerwatch/erigon/common/hexutil"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/syncreticcapital/erigon/common/hexutil"
+	"github.com/syncreticcapital/erigon/core/rawdb"
+	"github.com/syncreticcapital/erigon/rpc"
 )
 
 // CumulativeGasIndex implements erigon_cumulativeChainTraffic. Returns how much traffic there has been at the specified block number.

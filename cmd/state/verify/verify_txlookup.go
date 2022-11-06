@@ -12,7 +12,7 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/mdbx"
-	"github.com/ledgerwatch/erigon/core/rawdb"
+	"github.com/syncreticcapital/erigon/core/rawdb"
 	"github.com/ledgerwatch/log/v3"
 )
 

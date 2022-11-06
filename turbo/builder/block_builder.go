@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/syncreticcapital/erigon/core"
+	"github.com/syncreticcapital/erigon/core/types"
 	"github.com/ledgerwatch/log/v3"
 )
 

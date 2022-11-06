@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/syncreticcapital/erigon/common"
 	"github.com/ledgerwatch/log/v3"
 )
 

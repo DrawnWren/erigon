@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/syncreticcapital/erigon/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

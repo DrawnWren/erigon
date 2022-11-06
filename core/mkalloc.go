@@ -32,8 +32,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/syncreticcapital/erigon/core"
+	"github.com/syncreticcapital/erigon/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

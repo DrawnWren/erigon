@@ -8,10 +8,10 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/etl"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/dbutils"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/common/dbutils"
+	"github.com/syncreticcapital/erigon/eth/stagedsync/stages"
+	"github.com/syncreticcapital/erigon/params"
 )
 
 func extractHeaders(k []byte, v []byte, next etl.ExtractNextFunc) error {

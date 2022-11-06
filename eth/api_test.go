@@ -17,13 +17,13 @@
 package eth_test
 
 /*
-TODO: revive this tests for RPCDaemon - https://github.com/ledgerwatch/erigon/issues/939
+TODO: revive this tests for RPCDaemon - https://github.com/syncreticcapital/erigon/issues/939
 
 import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/ledgerwatch/erigon/turbo/adapter"
+	"github.com/syncreticcapital/erigon/turbo/adapter"
 	"reflect"
 	"sort"
 	"strconv"
@@ -31,14 +31,14 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/holiman/uint256"
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/commands"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/u256"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/eth"
-	"github.com/ledgerwatch/erigon/ethdb"
-	"github.com/ledgerwatch/erigon/turbo/trie"
+	"github.com/syncreticcapital/erigon/cmd/rpcdaemon/commands"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/common/u256"
+	"github.com/syncreticcapital/erigon/core/state"
+	"github.com/syncreticcapital/erigon/crypto"
+	"github.com/syncreticcapital/erigon/eth"
+	"github.com/syncreticcapital/erigon/ethdb"
+	"github.com/syncreticcapital/erigon/turbo/trie"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

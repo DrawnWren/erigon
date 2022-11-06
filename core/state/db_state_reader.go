@@ -6,9 +6,9 @@ import (
 
 	"github.com/VictoriaMetrics/fastcache"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/dbutils"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/common/dbutils"
+	"github.com/syncreticcapital/erigon/core/types/accounts"
 )
 
 // Implements StateReader by wrapping database only, without trie

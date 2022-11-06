@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ledgerwatch/erigon/common/hexutil"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/syncreticcapital/erigon/common/hexutil"
+	"github.com/syncreticcapital/erigon/rpc"
 )
 
 type netApiStub struct {

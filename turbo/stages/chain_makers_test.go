@@ -22,14 +22,14 @@ import (
 	"testing"
 
 	"github.com/holiman/uint256"
-	"github.com/ledgerwatch/erigon/ethdb/olddb"
-	"github.com/ledgerwatch/erigon/turbo/stages"
+	"github.com/syncreticcapital/erigon/ethdb/olddb"
+	"github.com/syncreticcapital/erigon/turbo/stages"
 
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/syncreticcapital/erigon/core"
+	"github.com/syncreticcapital/erigon/core/state"
+	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/syncreticcapital/erigon/crypto"
+	"github.com/syncreticcapital/erigon/params"
 	"github.com/ledgerwatch/log/v3"
 )
 

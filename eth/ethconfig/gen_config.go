@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/c2h5oh/datasize"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/eth/gasprice"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/consensus/ethash"
+	"github.com/syncreticcapital/erigon/core"
+	"github.com/syncreticcapital/erigon/eth/gasprice"
+	"github.com/syncreticcapital/erigon/ethdb/prune"
+	"github.com/syncreticcapital/erigon/params"
 )
 
 // MarshalTOML marshals as TOML.

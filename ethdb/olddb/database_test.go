@@ -29,8 +29,8 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/ethdb"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/ethdb"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

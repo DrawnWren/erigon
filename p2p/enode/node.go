@@ -26,8 +26,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ledgerwatch/erigon/p2p/enr"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/syncreticcapital/erigon/p2p/enr"
+	"github.com/syncreticcapital/erigon/rlp"
 )
 
 var errMissingPrefix = errors.New("missing 'enr:' prefix for base64-encoded record")

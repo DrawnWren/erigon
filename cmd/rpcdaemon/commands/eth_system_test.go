@@ -8,15 +8,15 @@ import (
 
 	"github.com/holiman/uint256"
 	"github.com/ledgerwatch/erigon-lib/kv/kvcache"
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
+	"github.com/syncreticcapital/erigon/rpc/rpccfg"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/turbo/snapshotsync"
-	"github.com/ledgerwatch/erigon/turbo/stages"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/core"
+	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/syncreticcapital/erigon/crypto"
+	"github.com/syncreticcapital/erigon/params"
+	"github.com/syncreticcapital/erigon/turbo/snapshotsync"
+	"github.com/syncreticcapital/erigon/turbo/stages"
 )
 
 func TestGasPrice(t *testing.T) {

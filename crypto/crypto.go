@@ -33,11 +33,11 @@ import (
 	"github.com/ledgerwatch/erigon/crypto/cryptopool"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/hexutil"
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/common/u256"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/common/hexutil"
+	"github.com/syncreticcapital/erigon/common/math"
+	"github.com/syncreticcapital/erigon/common/u256"
+	"github.com/syncreticcapital/erigon/rlp"
 )
 
 // SignatureLength indicates the byte length required to carry a signature with recovery id.

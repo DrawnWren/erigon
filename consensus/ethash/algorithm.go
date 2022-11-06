@@ -29,10 +29,10 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/bitutil"
-	"github.com/ledgerwatch/erigon/common/debug"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/common/bitutil"
+	"github.com/syncreticcapital/erigon/common/debug"
+	"github.com/syncreticcapital/erigon/crypto"
 	"github.com/ledgerwatch/log/v3"
 )
 

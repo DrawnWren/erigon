@@ -2,7 +2,7 @@
 
 Erigon is an implementation of Ethereum (execution client), on the efficiency frontier, written in Go.
 
-![Build status](https://github.com/ledgerwatch/erigon/actions/workflows/ci.yml/badge.svg)
+![Build status](https://github.com/syncreticcapital/erigon/actions/workflows/ci.yml/badge.svg)
 
 ![Coverage](https://gist.githubusercontent.com/revitteth/ee38e9beb22353eef6b88f2ad6ed7aa9/raw/badge.svg)
 
@@ -15,7 +15,7 @@ Erigon is an implementation of Ethereum (execution client), on the efficiency fr
     + [Testnets](#testnets)
     + [Mining](#mining)
     + [Windows](#windows)
-    + [GoDoc](https://godoc.org/github.com/ledgerwatch/erigon)
+    + [GoDoc](https://godoc.org/github.com/syncreticcapital/erigon)
     + [Beacon Chain](#beacon-chain-consensus-layer)
     + [Dev Chain](#dev-chain)
 
@@ -77,18 +77,21 @@ Usage
 For building the latest stable release (this will be suitable for most users just wanting to run a node):
 
 ```sh
+<<<<<<< HEAD
 git clone --branch stable --single-branch https://github.com/ledgerwatch/erigon.git
+=======
+git clone https://github.com/syncreticcapital/erigon.git
+>>>>>>> 5ab671d64 (draw the rest of the owl?)
 cd erigon
 make erigon
 ./build/bin/erigon
 ```
-
-You can check [the list of releases](https://github.com/ledgerwatch/erigon/releases) for release notes.
+You can check [the list of releases](https://github.com/syncreticcapital/erigon/releases) for release notes.
 
 For building the bleeding edge development branch:
 
 ```sh
-git clone --recurse-submodules https://github.com/ledgerwatch/erigon.git
+git clone --recurse-submodules https://github.com/syncreticcapital/erigon.git
 cd erigon
 git checkout devel
 make erigon
@@ -159,7 +162,7 @@ If you would like to give Erigon a try, but do not have spare 2TB on your drive,
 of the public testnets, Görli. It syncs much quicker, and does not take so much disk space:
 
 ```sh
-git clone --recurse-submodules -j8 https://github.com/ledgerwatch/erigon.git
+git clone --recurse-submodules -j8 https://github.com/syncreticcapital/erigon.git
 cd erigon
 make erigon
 ./build/bin/erigon --datadir=<your_datadir> --chain=goerli
@@ -182,7 +185,7 @@ Support only remote-miners.
 * JSON-RPC supports websocket methods: newPendingTransaction
 * TODO:
     + we don't broadcast mined blocks to p2p-network
-      yet, [but it's easy to accomplish](https://github.com/ledgerwatch/erigon/blob/9b8cdc0f2289a7cef78218a15043de5bdff4465e/eth/downloader/downloader.go#L673)
+      yet, [but it's easy to accomplish](https://github.com/syncreticcapital/erigon/blob/9b8cdc0f2289a7cef78218a15043de5bdff4465e/eth/downloader/downloader.go#L673)
     + eth_newPendingTransactionFilter
     + eth_newBlockFilter
     + eth_newFilter
@@ -319,7 +322,7 @@ Key features
 ============
 
 <code>🔬 See more
-detailed [overview of functionality and current limitations](https://ledgerwatch.github.io/turbo_geth_release.html). It
+detailed [overview of functionality and current limitations](https://syncreticcapital.github.io/turbo_geth_release.html). It
 is being updated on recurring basis.</code>
 
 ### More Efficient State Storage
@@ -477,7 +480,7 @@ sudo -u ${ERIGON_USER} DOCKER_UID=$(id -u ${ERIGON_USER}) DOCKER_GID=$(id -g ${E
 
 Makefile creates the initial directories for erigon, prometheus and grafana. The PID namespace is shared between erigon
 and rpcdaemon which is required to open Erigon's DB from another process (RPCDaemon local-mode).
-See: https://github.com/ledgerwatch/erigon/pull/2392/files
+See: https://github.com/syncreticcapital/erigon/pull/2392/files
 
 If your docker installation requires the docker daemon to run as root (which is by default), you will need to prefix
 the command above with `sudo`. However, it is sometimes recommended running docker (and therefore its containers) as a
@@ -704,7 +707,7 @@ Disk.
 
 ### Blocks Execution is slow on cloud-network-drives
 
-Please read https://github.com/ledgerwatch/erigon/issues/1516#issuecomment-811958891
+Please read https://github.com/syncreticcapital/erigon/issues/1516#issuecomment-811958891
 In short: network-disks are bad for blocks execution - because blocks execution reading data from db non-parallel
 non-batched way.
 

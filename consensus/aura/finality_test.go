@@ -3,7 +3,7 @@ package aura
 import (
 	"testing"
 
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/syncreticcapital/erigon/common"
 	"github.com/stretchr/testify/assert"
 )
 

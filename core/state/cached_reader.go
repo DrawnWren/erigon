@@ -3,9 +3,9 @@ package state
 import (
 	"bytes"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/turbo/shards"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/core/types/accounts"
+	"github.com/syncreticcapital/erigon/turbo/shards"
 )
 
 // CachedReader is a wrapper for an instance of type StateReader

@@ -18,8 +18,8 @@ package rawdb
 
 import (
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
+	"github.com/syncreticcapital/erigon/common"
+	"github.com/syncreticcapital/erigon/core/types/accounts"
 )
 
 func ReadAccount(db kv.Tx, addr common.Address, acc *accounts.Account) (bool, error) {

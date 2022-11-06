@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/common/hexutil"
+	"github.com/syncreticcapital/erigon/common/hexutil"
 )
 
 // DBAPI the interface for the db_ RPC commands (deprecated)
