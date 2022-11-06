@@ -1,4 +1,4 @@
-module github.com/ledgerwatch/erigon
+module github.com/syncreticcapital/erigon
 
 go 1.18
 
