@@ -458,37 +458,37 @@ func (ff *Filters) OnNewEvent(event *remote.SubscribeReply) {
 func (ff *Filters) onNewEvent(event *remote.SubscribeReply) error {
 	switch event.Type {
 	case remote.Event_HEADER:
-		return ff.onNewHeader(event)
+		payload := event.Data
+		var header types.Header
+		if len(payload) == 0 {
+			return
+
+		}
+		err := rlp.Decode(bytes.NewReader(payload), &header)
+		if err != nil {
+			// ignoring what we can't unmarshal
+			log.Warn("OnNewEvent rpc filters (header), unprocessable payload", "err", err)
+		} else {
+			for _, v := range ff.headsSubs {
+				v <- &header
+			}
+		}
 	case remote.Event_NEW_SNAPSHOT:
 		ff.onNewSnapshot()
 		return nil
 	case remote.Event_PENDING_LOGS:
-		return ff.onPendingLog(event)
-	case remote.Event_PENDING_BLOCK:
-		return ff.onPendingBlock(event)
-	default:
-		return fmt.Errorf("unsupported event type")
-	}
-}
-
-// TODO: implement?
-func (ff *Filters) onPendingLog(event *remote.SubscribeReply) error {
-	//	payload := event.Data
-	//	var logs types.Logs
-	//	err := rlp.Decode(bytes.NewReader(payload), &logs)
-	//	if err != nil {
-	//		// ignoring what we can't unmarshal
-	//		log.Warn("OnNewEvent rpc filters (pending logs), unprocessable payload", "err", err)
-	//	} else {
-	//		for _, v := range ff.pendingLogsSubs {
-	//			v <- logs
-	//		}
-	//	}
-	return nil
-}
-
-// TODO: implement?
-func (ff *Filters) onPendingBlock(event *remote.SubscribeReply) error {
+		payload := event.Data
+		var logs types.Logs
+		err := rlp.Decode(bytes.NewReader(payload), &logs)
+		if err != nil {
+			// ignoring what we can't unmarshal
+			log.Warn("OnNewEvent rpc filters (pending logs), unprocessable payload", "err", err)
+		} else {
+			for _, v := range ff.pendingLogsSubs {
+				v <- logs
+			}
+		}
+	//case remote.Event_PENDING_BLOCK:
 	//	payload := event.Data
 	//	var block types.Block
 	//	err := rlp.Decode(bytes.NewReader(payload), &block)
