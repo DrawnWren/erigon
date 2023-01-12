@@ -24,6 +24,8 @@ docs/readthedocs/build
 .project
 .settings
 
+*.orig
+
 # Used by mdbx Makefile
 /ethdb/mdbx/dist/CMakeFiles/*
 /ethdb/mdbx/dist/CMakeCache*
