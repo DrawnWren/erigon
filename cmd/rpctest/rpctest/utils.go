@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/state"
-	"github.com/syncreticcapital/erigon/crypto"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/state"
+	"github.com/ledgerwatch/erigon/crypto"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/valyala/fastjson"
 )

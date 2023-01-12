@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/syncreticcapital/erigon/crypto"
+	"github.com/ledgerwatch/erigon/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

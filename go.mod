@@ -1,4 +1,4 @@
-module github.com/syncreticcapital/erigon
+module github.com/ledgerwatch/erigon
 
 go 1.18
 
@@ -53,6 +53,7 @@ require (
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/kevinburke/go-bindata v3.21.0+incompatible
 	github.com/klauspost/compress v1.15.10
+	github.com/ledgerwatch/erigon v0.0.0-00010101000000-000000000000
 	github.com/libp2p/go-libp2p v0.23.2
 	github.com/libp2p/go-libp2p-core v0.20.1
 	github.com/libp2p/go-libp2p-pubsub v0.8.1
@@ -257,3 +258,5 @@ require (
 )
 
 replace github.com/tendermint/tendermint => github.com/bnb-chain/tendermint v0.31.12
+
+replace github.com/ledgerwatch/erigon => /home/wing/code/Go/erigon

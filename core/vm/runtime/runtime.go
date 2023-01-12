@@ -24,13 +24,13 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/syncreticcapital/erigon/ethdb/olddb"
+	"github.com/ledgerwatch/erigon/ethdb/olddb"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/state"
-	"github.com/syncreticcapital/erigon/core/vm"
-	"github.com/syncreticcapital/erigon/crypto"
-	"github.com/syncreticcapital/erigon/params"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/state"
+	"github.com/ledgerwatch/erigon/core/vm"
+	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/ledgerwatch/erigon/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

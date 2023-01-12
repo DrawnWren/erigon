@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/syncreticcapital/erigon/cmd/observer/database"
-	"github.com/syncreticcapital/erigon/cmd/observer/observer/node_utils"
-	"github.com/syncreticcapital/erigon/cmd/observer/utils"
+	"github.com/ledgerwatch/erigon/cmd/observer/database"
+	"github.com/ledgerwatch/erigon/cmd/observer/observer/node_utils"
+	"github.com/ledgerwatch/erigon/cmd/observer/utils"
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/sync/semaphore"
 )

@@ -7,14 +7,14 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/kvcache"
-	"github.com/syncreticcapital/erigon/cmd/rpcdaemon/cli/httpcfg"
-	"github.com/syncreticcapital/erigon/cmd/rpcdaemon/rpcdaemontest"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/hexutil"
-	"github.com/syncreticcapital/erigon/core/rawdb"
-	"github.com/syncreticcapital/erigon/rpc"
-	"github.com/syncreticcapital/erigon/rpc/rpccfg"
-	"github.com/syncreticcapital/erigon/turbo/snapshotsync"
+	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/cli/httpcfg"
+	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/hexutil"
+	"github.com/ledgerwatch/erigon/core/rawdb"
+	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/ledgerwatch/erigon/rpc/rpccfg"
+	"github.com/ledgerwatch/erigon/turbo/snapshotsync"
 	"github.com/stretchr/testify/require"
 )
 

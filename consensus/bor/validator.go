@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/syncreticcapital/erigon/common"
+	"github.com/ledgerwatch/erigon/common"
 )
 
 // Validator represets Volatile state for each Validator

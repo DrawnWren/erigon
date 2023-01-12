@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/types/accounts"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/types/accounts"
 )
 
 func TestBlockWitness(t *testing.T) {

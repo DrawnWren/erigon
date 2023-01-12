@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/syncreticcapital/erigon/rlp"
+	"github.com/ledgerwatch/erigon/rlp"
 )
 
 // Entry is implemented by known node record entry types.

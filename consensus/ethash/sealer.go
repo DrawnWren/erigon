@@ -30,10 +30,10 @@ import (
 
 	"github.com/goccy/go-json"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/hexutil"
-	"github.com/syncreticcapital/erigon/consensus"
-	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/hexutil"
+	"github.com/ledgerwatch/erigon/consensus"
+	"github.com/ledgerwatch/erigon/core/types"
 )
 
 const (

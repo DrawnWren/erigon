@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/math"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/math"
 )
 
 var _ = (*stEnvMarshaling)(nil)

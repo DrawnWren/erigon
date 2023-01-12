@@ -9,8 +9,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/syncreticcapital/erigon/p2p/discover/v5wire"
-	"github.com/syncreticcapital/erigon/p2p/enode"
+	"github.com/ledgerwatch/erigon/p2p/discover/v5wire"
+	"github.com/ledgerwatch/erigon/p2p/enode"
 )
 
 // This test checks that lookup works.

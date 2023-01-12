@@ -25,10 +25,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/bitutil"
-	"github.com/syncreticcapital/erigon/p2p/rlpx"
-	"github.com/syncreticcapital/erigon/rlp"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/bitutil"
+	"github.com/ledgerwatch/erigon/p2p/rlpx"
+	"github.com/ledgerwatch/erigon/rlp"
 )
 
 const (

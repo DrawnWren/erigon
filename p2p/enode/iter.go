@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/syncreticcapital/erigon/common/debug"
+	"github.com/ledgerwatch/erigon/common/debug"
 )
 
 // Iterator represents a sequence of nodes. The Next method moves to the next node in the

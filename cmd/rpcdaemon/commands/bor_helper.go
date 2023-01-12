@@ -7,13 +7,13 @@ import (
 	"fmt"
 
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/consensus/bor"
-	"github.com/syncreticcapital/erigon/core/types"
-	"github.com/syncreticcapital/erigon/crypto"
-	"github.com/syncreticcapital/erigon/params"
-	"github.com/syncreticcapital/erigon/rpc"
-	"github.com/syncreticcapital/erigon/turbo/rpchelper"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/consensus/bor"
+	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/ledgerwatch/erigon/params"
+	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/ledgerwatch/erigon/turbo/rpchelper"
 )
 
 const (

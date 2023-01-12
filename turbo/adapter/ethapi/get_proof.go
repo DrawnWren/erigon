@@ -3,10 +3,10 @@ package ethapi
 import (
 	"bytes"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/hexutil"
-	"github.com/syncreticcapital/erigon/core/types/accounts"
-	"github.com/syncreticcapital/erigon/turbo/trie"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/hexutil"
+	"github.com/ledgerwatch/erigon/core/types/accounts"
+	"github.com/ledgerwatch/erigon/turbo/trie"
 )
 
 // Result structs for GetProof

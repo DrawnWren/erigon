@@ -22,8 +22,8 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/params"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/params"
 )
 
 // ReadChainConfig retrieves the consensus settings based on the given genesis hash.

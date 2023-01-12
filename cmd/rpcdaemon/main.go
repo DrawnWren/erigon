@@ -10,8 +10,6 @@ import (
 	"github.com/ledgerwatch/erigon/turbo/logging"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/spf13/cobra"
-	"github.com/syncreticcapital/erigon/cmd/rpcdaemon/cli"
-	"github.com/syncreticcapital/erigon/cmd/rpcdaemon/commands"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package parlia
 import (
 	"math/rand"
 
-	"github.com/syncreticcapital/erigon/common"
+	"github.com/ledgerwatch/erigon/common"
 )
 
 func backOffTime(snap *Snapshot, val common.Address) uint64 {

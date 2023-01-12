@@ -8,14 +8,14 @@ import (
 	"math/big"
 
 	txPoolProto "github.com/ledgerwatch/erigon-lib/gointerfaces/txpool"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/hexutil"
-	"github.com/syncreticcapital/erigon/core/rawdb"
-	"github.com/syncreticcapital/erigon/core/types"
-	"github.com/syncreticcapital/erigon/crypto"
-	"github.com/syncreticcapital/erigon/eth/ethconfig"
-	"github.com/syncreticcapital/erigon/params"
-	"github.com/syncreticcapital/erigon/rlp"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/hexutil"
+	"github.com/ledgerwatch/erigon/core/rawdb"
+	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/ledgerwatch/erigon/eth/ethconfig"
+	"github.com/ledgerwatch/erigon/params"
+	"github.com/ledgerwatch/erigon/rlp"
 	"github.com/ledgerwatch/log/v3"
 )
 

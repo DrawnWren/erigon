@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/syncreticcapital/erigon"
-	"github.com/syncreticcapital/erigon/accounts/abi"
-	"github.com/syncreticcapital/erigon/accounts/abi/bind"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/types"
-	"github.com/syncreticcapital/erigon/event"
+	ethereum "github.com/ledgerwatch/erigon"
+	"github.com/ledgerwatch/erigon/accounts/abi"
+	"github.com/ledgerwatch/erigon/accounts/abi/bind"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/ledgerwatch/erigon/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

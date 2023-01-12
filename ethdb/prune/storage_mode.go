@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/syncreticcapital/erigon/params"
+	"github.com/ledgerwatch/erigon/params"
 	"github.com/ledgerwatch/log/v3"
 )
 

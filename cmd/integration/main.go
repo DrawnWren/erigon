@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/syncreticcapital/erigon/cmd/integration/commands"
+	"github.com/ledgerwatch/erigon/cmd/integration/commands"
 )
 
 func main() {

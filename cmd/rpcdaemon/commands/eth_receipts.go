@@ -545,7 +545,7 @@ func (api *APIImpl) GetTransactionReceipt(ctx context.Context, txnHash common.Ha
 		return nil, err
 	}
 	if block == nil {
-		return nil, nil // not error, see https://github.com/syncreticcapital/erigon/issues/1645
+		return nil, nil // not error, see https://github.com/ledgerwatch/erigon/issues/1645
 	}
 
 	var txnIndex uint64

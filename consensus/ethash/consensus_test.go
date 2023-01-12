@@ -26,10 +26,10 @@ import (
 
 	"github.com/goccy/go-json"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/math"
-	"github.com/syncreticcapital/erigon/core/types"
-	"github.com/syncreticcapital/erigon/params"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/math"
+	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/ledgerwatch/erigon/params"
 )
 
 type diffTest struct {

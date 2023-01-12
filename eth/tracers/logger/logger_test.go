@@ -25,9 +25,9 @@ import (
 	"github.com/ledgerwatch/erigon/core/vm"
 	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/vm/stack"
-	"github.com/syncreticcapital/erigon/params"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/vm/stack"
+	"github.com/ledgerwatch/erigon/params"
 )
 
 type dummyContractRef struct {

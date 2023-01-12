@@ -1,6 +1,6 @@
 package systemcontracts
 
-import "github.com/syncreticcapital/erigon/common"
+import "github.com/ledgerwatch/erigon/common"
 
 var (
 	// genesis contracts

@@ -12,7 +12,7 @@ import (
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/syncreticcapital/erigon/rpc"
+	"github.com/ledgerwatch/erigon/rpc"
 )
 
 type requestBody struct {

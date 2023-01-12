@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/syncreticcapital/erigon/common"
+	"github.com/ledgerwatch/erigon/common"
 	"github.com/stretchr/testify/require"
 )
 

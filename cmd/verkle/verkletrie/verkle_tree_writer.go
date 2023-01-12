@@ -10,10 +10,10 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/ledgerwatch/erigon-lib/etl"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/rawdb"
-	"github.com/syncreticcapital/erigon/core/types/accounts"
-	"github.com/syncreticcapital/erigon/turbo/trie/vtree"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/rawdb"
+	"github.com/ledgerwatch/erigon/core/types/accounts"
+	"github.com/ledgerwatch/erigon/turbo/trie/vtree"
 	"github.com/ledgerwatch/log/v3"
 )
 

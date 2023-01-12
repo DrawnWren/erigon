@@ -5,9 +5,9 @@ import (
 	"sort"
 
 	"github.com/holiman/uint256"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/dbutils"
-	"github.com/syncreticcapital/erigon/crypto"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/dbutils"
+	"github.com/ledgerwatch/erigon/crypto"
 )
 
 const BorTxKeyPrefix string = "matic-bor-receipt-"

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/syncreticcapital/erigon/event"
+	"github.com/ledgerwatch/erigon/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

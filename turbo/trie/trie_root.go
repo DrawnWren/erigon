@@ -12,11 +12,11 @@ import (
 	length2 "github.com/ledgerwatch/erigon-lib/common/length"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/log/v3"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/dbutils"
-	"github.com/syncreticcapital/erigon/common/hexutil"
-	"github.com/syncreticcapital/erigon/core/types/accounts"
-	"github.com/syncreticcapital/erigon/turbo/rlphacks"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/dbutils"
+	"github.com/ledgerwatch/erigon/common/hexutil"
+	"github.com/ledgerwatch/erigon/core/types/accounts"
+	"github.com/ledgerwatch/erigon/turbo/rlphacks"
 )
 
 /*

@@ -25,9 +25,9 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/paths"
-	"github.com/syncreticcapital/erigon/params/networkname"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/paths"
+	"github.com/ledgerwatch/erigon/params/networkname"
 )
 
 //go:embed chainspecs

@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/syncreticcapital/erigon/common/math"
-	"github.com/syncreticcapital/erigon/core/vm"
+	"github.com/ledgerwatch/erigon/common/math"
+	"github.com/ledgerwatch/erigon/core/vm"
 )
 
 // Compiler contains information about the parsed source

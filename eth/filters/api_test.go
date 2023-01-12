@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/rpc"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

@@ -20,10 +20,10 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"google.golang.org/grpc"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/types"
-	"github.com/syncreticcapital/erigon/eth/filters"
-	"github.com/syncreticcapital/erigon/rlp"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/ledgerwatch/erigon/eth/filters"
+	"github.com/ledgerwatch/erigon/rlp"
 )
 
 type Filters struct {
@@ -461,17 +461,17 @@ func (ff *Filters) onNewEvent(event *remote.SubscribeReply) error {
 		payload := event.Data
 		var header types.Header
 		if len(payload) == 0 {
-			return
-
+			return nil
 		}
 		err := rlp.Decode(bytes.NewReader(payload), &header)
 		if err != nil {
 			// ignoring what we can't unmarshal
 			log.Warn("OnNewEvent rpc filters (header), unprocessable payload", "err", err)
 		} else {
-			for _, v := range ff.headsSubs {
-				v <- &header
-			}
+			ff.headsSubs.Range(func(k HeadsSubID, v Sub[*types.Header]) error {
+				v.Send(&header)
+				return nil
+			})
 		}
 	case remote.Event_NEW_SNAPSHOT:
 		ff.onNewSnapshot()
@@ -484,22 +484,12 @@ func (ff *Filters) onNewEvent(event *remote.SubscribeReply) error {
 			// ignoring what we can't unmarshal
 			log.Warn("OnNewEvent rpc filters (pending logs), unprocessable payload", "err", err)
 		} else {
-			for _, v := range ff.pendingLogsSubs {
-				v <- logs
-			}
+			ff.pendingLogsSubs.Range(func(k PendingLogsSubID, v Sub[types.Logs]) error {
+				v.Send(logs)
+				return nil
+			})
 		}
-	//case remote.Event_PENDING_BLOCK:
-	//	payload := event.Data
-	//	var block types.Block
-	//	err := rlp.Decode(bytes.NewReader(payload), &block)
-	//	if err != nil {
-	//		// ignoring what we can't unmarshal
-	//		log.Warn("OnNewEvent rpc filters (pending txs), unprocessable payload", "err", err)
-	//	} else {
-	//		for _, v := range ff.pendingBlockSubs {
-	//			v <- &block
-	//		}
-	//	}
+	}
 	return nil
 }
 

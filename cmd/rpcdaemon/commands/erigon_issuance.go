@@ -6,10 +6,10 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/syncreticcapital/erigon/common/hexutil"
-	"github.com/syncreticcapital/erigon/consensus/ethash"
-	"github.com/syncreticcapital/erigon/core/rawdb"
-	"github.com/syncreticcapital/erigon/rpc"
+	"github.com/ledgerwatch/erigon/common/hexutil"
+	"github.com/ledgerwatch/erigon/consensus/ethash"
+	"github.com/ledgerwatch/erigon/core/rawdb"
+	"github.com/ledgerwatch/erigon/rpc"
 )
 
 // BlockReward returns the block reward for this block

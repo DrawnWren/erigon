@@ -27,9 +27,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/math"
-	"github.com/syncreticcapital/erigon/crypto"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/math"
+	"github.com/ledgerwatch/erigon/crypto"
 )
 
 const jsondata = `

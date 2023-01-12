@@ -3,9 +3,9 @@ package commands
 import (
 	"context"
 
-	"github.com/syncreticcapital/erigon/common/hexutil"
-	"github.com/syncreticcapital/erigon/crypto"
-	"github.com/syncreticcapital/erigon/turbo/rpchelper"
+	"github.com/ledgerwatch/erigon/common/hexutil"
+	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/ledgerwatch/erigon/turbo/rpchelper"
 )
 
 // Web3API provides interfaces for the web3_ RPC commands

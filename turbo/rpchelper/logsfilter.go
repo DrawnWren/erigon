@@ -6,8 +6,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/gointerfaces"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
 
-	"github.com/syncreticcapital/erigon/common"
-	types2 "github.com/syncreticcapital/erigon/core/types"
+	"github.com/ledgerwatch/erigon/common"
+	types2 "github.com/ledgerwatch/erigon/core/types"
 )
 
 type LogsFilterAggregator struct {

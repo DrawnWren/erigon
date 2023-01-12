@@ -20,8 +20,8 @@ import (
 	"sync"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/syncreticcapital/erigon/common/debug"
-	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/ledgerwatch/erigon/common/debug"
+	"github.com/ledgerwatch/erigon/core/types"
 )
 
 // txSenderCacherRequest is a request for recovering transaction senders with a

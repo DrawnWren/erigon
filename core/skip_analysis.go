@@ -19,8 +19,8 @@ package core
 import (
 	"sort"
 
-	"github.com/syncreticcapital/erigon/params"
-	"github.com/syncreticcapital/erigon/params/networkname"
+	"github.com/ledgerwatch/erigon/params"
+	"github.com/ledgerwatch/erigon/params/networkname"
 )
 
 // SkipAnalysis function tells us whether we can skip performing jumpdest analysis

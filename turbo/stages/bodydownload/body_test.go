@@ -5,7 +5,7 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
 
-	"github.com/syncreticcapital/erigon/consensus/ethash"
+	"github.com/ledgerwatch/erigon/consensus/ethash"
 )
 
 func TestCreateBodyDownload(t *testing.T) {

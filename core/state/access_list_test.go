@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/syncreticcapital/erigon/common"
+	"github.com/ledgerwatch/erigon/common"
 )
 
 func verifyAddrs(t *testing.T, s *IntraBlockState, astrings ...string) {

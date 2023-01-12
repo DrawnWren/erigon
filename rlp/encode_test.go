@@ -25,7 +25,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/syncreticcapital/erigon/common/math"
+	"github.com/ledgerwatch/erigon/common/math"
 
 	"github.com/holiman/uint256"
 )

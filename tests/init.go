@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/syncreticcapital/erigon/params"
+	"github.com/ledgerwatch/erigon/params"
 )
 
 // Forks table defines supported forks and their chain config.

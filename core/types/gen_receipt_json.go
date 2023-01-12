@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/hexutil"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/hexutil"
 )
 
 var _ = (*receiptMarshaling)(nil)

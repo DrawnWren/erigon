@@ -6,13 +6,13 @@ import (
 	"math/big"
 
 	"github.com/ledgerwatch/erigon-lib/gointerfaces"
-	"github.com/syncreticcapital/erigon/turbo/rpchelper"
+	"github.com/ledgerwatch/erigon/turbo/rpchelper"
 	"google.golang.org/grpc"
 
 	txpool_proto "github.com/ledgerwatch/erigon-lib/gointerfaces/txpool"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/hexutil"
-	"github.com/syncreticcapital/erigon/rpc"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/hexutil"
+	"github.com/ledgerwatch/erigon/rpc"
 )
 
 // GetBalance implements eth_getBalance. Returns the balance of an account for a given address.

@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

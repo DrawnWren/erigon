@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/types"
-	"github.com/syncreticcapital/erigon/params"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/ledgerwatch/erigon/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

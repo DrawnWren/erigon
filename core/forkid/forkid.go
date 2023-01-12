@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/params"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/params"
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/exp/slices"
 )

@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/syncreticcapital/erigon/rlp"
+	"github.com/ledgerwatch/erigon/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

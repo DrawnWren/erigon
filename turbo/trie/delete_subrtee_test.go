@@ -9,9 +9,9 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/ledgerwatch/erigon-lib/common/length"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/types/accounts"
-	"github.com/syncreticcapital/erigon/crypto"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/types/accounts"
+	"github.com/ledgerwatch/erigon/crypto"
 )
 
 func TestTrieDeleteSubtree_ShortNode(t *testing.T) {

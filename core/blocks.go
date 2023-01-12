@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/syncreticcapital/erigon/common"
+import "github.com/ledgerwatch/erigon/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

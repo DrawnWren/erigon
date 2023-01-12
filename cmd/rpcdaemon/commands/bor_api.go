@@ -2,9 +2,9 @@ package commands
 
 import (
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/consensus/bor"
-	"github.com/syncreticcapital/erigon/rpc"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/consensus/bor"
+	"github.com/ledgerwatch/erigon/rpc"
 )
 
 // BorAPI Bor specific routines

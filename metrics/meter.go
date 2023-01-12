@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/syncreticcapital/erigon/common/debug"
+	"github.com/ledgerwatch/erigon/common/debug"
 )
 
 // Meters count events to produce exponentially-weighted moving average rates

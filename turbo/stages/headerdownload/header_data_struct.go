@@ -9,12 +9,12 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/ledgerwatch/erigon-lib/etl"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/consensus"
-	"github.com/syncreticcapital/erigon/core/types"
-	"github.com/syncreticcapital/erigon/rlp"
-	"github.com/syncreticcapital/erigon/turbo/engineapi"
-	"github.com/syncreticcapital/erigon/turbo/services"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/consensus"
+	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/ledgerwatch/erigon/turbo/engineapi"
+	"github.com/ledgerwatch/erigon/turbo/services"
 )
 
 type QueueID uint8

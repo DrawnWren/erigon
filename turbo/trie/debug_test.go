@@ -25,8 +25,8 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/types/accounts"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/types/accounts"
 )
 
 var debugTests = []struct {

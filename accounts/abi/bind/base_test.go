@@ -23,14 +23,14 @@ import (
 	"strings"
 	"testing"
 
-	ethereum "github.com/syncreticcapital/erigon"
-	"github.com/syncreticcapital/erigon/accounts/abi"
-	"github.com/syncreticcapital/erigon/accounts/abi/bind"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/hexutil"
-	"github.com/syncreticcapital/erigon/core/types"
-	"github.com/syncreticcapital/erigon/crypto"
-	"github.com/syncreticcapital/erigon/rlp"
+	ethereum "github.com/ledgerwatch/erigon"
+	"github.com/ledgerwatch/erigon/accounts/abi"
+	"github.com/ledgerwatch/erigon/accounts/abi/bind"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/hexutil"
+	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/ledgerwatch/erigon/rlp"
 )
 
 type mockCaller struct {

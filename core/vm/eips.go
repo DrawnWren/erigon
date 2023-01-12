@@ -22,7 +22,7 @@ import (
 
 	"github.com/holiman/uint256"
 
-	"github.com/syncreticcapital/erigon/params"
+	"github.com/ledgerwatch/erigon/params"
 )
 
 var activators = map[int]func(*JumpTable){

@@ -27,10 +27,10 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/vm/stack"
-	"github.com/syncreticcapital/erigon/crypto"
-	"github.com/syncreticcapital/erigon/params"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/vm/stack"
+	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/ledgerwatch/erigon/params"
 )
 
 const opTestArg = "ABCDEF090807060504030201ffffffffffffffffffffffffffffffffffffffff"

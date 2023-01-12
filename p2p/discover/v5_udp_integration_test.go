@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/syncreticcapital/erigon/p2p/discover/v5wire"
+	"github.com/ledgerwatch/erigon/p2p/discover/v5wire"
 )
 
 // This test checks that calls with n replies may take up to n * respTimeout.

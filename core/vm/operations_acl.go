@@ -20,10 +20,10 @@ import (
 	"errors"
 
 	"github.com/holiman/uint256"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/math"
-	"github.com/syncreticcapital/erigon/core/vm/stack"
-	"github.com/syncreticcapital/erigon/params"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/math"
+	"github.com/ledgerwatch/erigon/core/vm/stack"
+	"github.com/ledgerwatch/erigon/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

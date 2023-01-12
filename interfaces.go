@@ -23,8 +23,8 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

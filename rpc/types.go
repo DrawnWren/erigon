@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/hexutil"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

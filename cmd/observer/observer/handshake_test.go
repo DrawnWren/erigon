@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/syncreticcapital/erigon/crypto"
-	"github.com/syncreticcapital/erigon/eth/protocols/eth"
-	"github.com/syncreticcapital/erigon/p2p/enode"
-	"github.com/syncreticcapital/erigon/params"
+	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/ledgerwatch/erigon/eth/protocols/eth"
+	"github.com/ledgerwatch/erigon/p2p/enode"
+	"github.com/ledgerwatch/erigon/params"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

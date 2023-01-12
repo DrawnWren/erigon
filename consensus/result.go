@@ -3,8 +3,8 @@ package consensus
 import (
 	"context"
 
-	"github.com/syncreticcapital/erigon/common/debug"
-	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/ledgerwatch/erigon/common/debug"
+	"github.com/ledgerwatch/erigon/core/types"
 	"github.com/ledgerwatch/log/v3"
 )
 

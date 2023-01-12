@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/syncreticcapital/erigon/common"
+	"github.com/ledgerwatch/erigon/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

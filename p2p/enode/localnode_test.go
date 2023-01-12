@@ -21,8 +21,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/syncreticcapital/erigon/crypto"
-	"github.com/syncreticcapital/erigon/p2p/enr"
+	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/ledgerwatch/erigon/p2p/enr"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,9 +5,9 @@ import (
 
 	mapset "github.com/deckarep/golang-set"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/consensus"
-	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/consensus"
+	"github.com/ledgerwatch/erigon/core/types"
 	"github.com/ledgerwatch/log/v3"
 )
 

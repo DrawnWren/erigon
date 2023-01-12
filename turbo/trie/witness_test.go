@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/syncreticcapital/erigon/common"
+	"github.com/ledgerwatch/erigon/common"
 )
 
 func generateOperands() []WitnessOperator {

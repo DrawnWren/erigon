@@ -23,11 +23,11 @@ import (
 	"math/big"
 
 	"github.com/holiman/uint256"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/types/accounts"
-	"github.com/syncreticcapital/erigon/crypto"
-	"github.com/syncreticcapital/erigon/rlp"
-	"github.com/syncreticcapital/erigon/turbo/trie"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/types/accounts"
+	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/ledgerwatch/erigon/turbo/trie"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

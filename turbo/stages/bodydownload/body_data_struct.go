@@ -3,9 +3,9 @@ package bodydownload
 import (
 	"github.com/RoaringBitmap/roaring/roaring64"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/consensus"
-	"github.com/syncreticcapital/erigon/core/types"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/consensus"
+	"github.com/ledgerwatch/erigon/core/types"
 )
 
 // TripleHash is type to be used for the mapping between TxHash, UncleHash, and WithdrawalsHash to the block header

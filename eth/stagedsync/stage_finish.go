@@ -12,14 +12,14 @@ import (
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
 	types2 "github.com/ledgerwatch/erigon-lib/gointerfaces/types"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/syncreticcapital/erigon/common"
-	common2 "github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/dbutils"
-	"github.com/syncreticcapital/erigon/core/rawdb"
-	"github.com/syncreticcapital/erigon/core/types"
-	"github.com/syncreticcapital/erigon/ethdb/cbor"
-	"github.com/syncreticcapital/erigon/params"
-	"github.com/syncreticcapital/erigon/turbo/engineapi"
+	"github.com/ledgerwatch/erigon/common"
+	common2 "github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/dbutils"
+	"github.com/ledgerwatch/erigon/core/rawdb"
+	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/ledgerwatch/erigon/ethdb/cbor"
+	"github.com/ledgerwatch/erigon/params"
+	"github.com/ledgerwatch/erigon/turbo/engineapi"
 	"github.com/ledgerwatch/log/v3"
 )
 
@@ -169,7 +169,7 @@ func NotifyNewHeaders(ctx context.Context, finishStageBeforeSync uint64, finishS
 		headerTiming := time.Since(t)
 
 		t = time.Now()
-		if notifier.HasLogSubsriptions() {
+		if notifier.HasLogSubscriptions() {
 			logs, err := ReadLogs(tx, notifyFrom, isUnwind)
 			if err != nil {
 				return err

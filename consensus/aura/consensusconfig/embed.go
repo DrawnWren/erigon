@@ -3,7 +3,7 @@ package consensusconfig
 import (
 	_ "embed"
 
-	"github.com/syncreticcapital/erigon/params/networkname"
+	"github.com/ledgerwatch/erigon/params/networkname"
 )
 
 //go:embed poasokol.json

@@ -3,8 +3,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/rlp"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/rlp"
 )
 
 func FullNode1() {

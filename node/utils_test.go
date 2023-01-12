@@ -20,7 +20,7 @@
 package node
 
 import (
-	"github.com/syncreticcapital/erigon/p2p"
+	"github.com/ledgerwatch/erigon/p2p"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

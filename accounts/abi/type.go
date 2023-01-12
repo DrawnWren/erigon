@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/syncreticcapital/erigon/common"
+	"github.com/ledgerwatch/erigon/common"
 )
 
 // Type enumerator

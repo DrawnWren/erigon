@@ -9,18 +9,18 @@ import (
 
 	"github.com/holiman/uint256"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/syncreticcapital/erigon/turbo/stages"
+	"github.com/ledgerwatch/erigon/turbo/stages"
 	"github.com/stretchr/testify/require"
 
-	"github.com/syncreticcapital/erigon/accounts/abi/bind"
-	"github.com/syncreticcapital/erigon/accounts/abi/bind/backends"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core"
-	"github.com/syncreticcapital/erigon/core/state"
-	"github.com/syncreticcapital/erigon/core/types"
-	"github.com/syncreticcapital/erigon/crypto"
-	"github.com/syncreticcapital/erigon/params"
-	"github.com/syncreticcapital/erigon/tests/contracts"
+	"github.com/ledgerwatch/erigon/accounts/abi/bind"
+	"github.com/ledgerwatch/erigon/accounts/abi/bind/backends"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core"
+	"github.com/ledgerwatch/erigon/core/state"
+	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/ledgerwatch/erigon/params"
+	"github.com/ledgerwatch/erigon/tests/contracts"
 )
 
 func TestInsertIncorrectStateRootDifferentAccounts(t *testing.T) {

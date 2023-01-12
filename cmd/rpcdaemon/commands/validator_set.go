@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/consensus/bor"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/consensus/bor"
 	"github.com/ledgerwatch/log/v3"
 )
 

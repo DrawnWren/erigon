@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/syncreticcapital/erigon/core/vm"
+	"github.com/ledgerwatch/erigon/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

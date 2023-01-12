@@ -7,9 +7,9 @@ import (
 	"unsafe"
 
 	"github.com/google/btree"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/dbutils"
-	"github.com/syncreticcapital/erigon/core/types/accounts"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/dbutils"
+	"github.com/ledgerwatch/erigon/core/types/accounts"
 )
 
 // An optional addition to the state cache, helping to calculate state root

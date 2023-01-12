@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/common/hexutil"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/common/hexutil"
 )
 
 // BenchTraceCallMany compares response of Erigon with Geth

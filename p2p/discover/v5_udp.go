@@ -30,12 +30,12 @@ import (
 	"time"
 
 	common2 "github.com/ledgerwatch/erigon-lib/common/cmp"
-	"github.com/syncreticcapital/erigon/common/debug"
-	"github.com/syncreticcapital/erigon/common/mclock"
-	"github.com/syncreticcapital/erigon/p2p/discover/v5wire"
-	"github.com/syncreticcapital/erigon/p2p/enode"
-	"github.com/syncreticcapital/erigon/p2p/enr"
-	"github.com/syncreticcapital/erigon/p2p/netutil"
+	"github.com/ledgerwatch/erigon/common/debug"
+	"github.com/ledgerwatch/erigon/common/mclock"
+	"github.com/ledgerwatch/erigon/p2p/discover/v5wire"
+	"github.com/ledgerwatch/erigon/p2p/enode"
+	"github.com/ledgerwatch/erigon/p2p/enr"
+	"github.com/ledgerwatch/erigon/p2p/netutil"
 	"github.com/ledgerwatch/log/v3"
 )
 

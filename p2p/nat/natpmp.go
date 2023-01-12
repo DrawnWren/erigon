@@ -23,7 +23,7 @@ import (
 	"time"
 
 	natpmp "github.com/jackpal/go-nat-pmp"
-	"github.com/syncreticcapital/erigon/common/debug"
+	"github.com/ledgerwatch/erigon/common/debug"
 )
 
 // natPMPClient adapts the NAT-PMP protocol implementation so it conforms to

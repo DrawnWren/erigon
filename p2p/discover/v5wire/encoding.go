@@ -28,10 +28,10 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/syncreticcapital/erigon/common/mclock"
-	"github.com/syncreticcapital/erigon/p2p/enode"
-	"github.com/syncreticcapital/erigon/p2p/enr"
-	"github.com/syncreticcapital/erigon/rlp"
+	"github.com/ledgerwatch/erigon/common/mclock"
+	"github.com/ledgerwatch/erigon/p2p/enode"
+	"github.com/ledgerwatch/erigon/p2p/enr"
+	"github.com/ledgerwatch/erigon/rlp"
 )
 
 // TODO concurrent WHOAREYOU tie-breaker

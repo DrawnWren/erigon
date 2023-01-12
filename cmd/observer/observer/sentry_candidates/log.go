@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/syncreticcapital/erigon/eth/protocols/eth"
+	"github.com/ledgerwatch/erigon/eth/protocols/eth"
 	"github.com/nxadm/tail"
 )
 

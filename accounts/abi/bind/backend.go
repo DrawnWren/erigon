@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	ethereum "github.com/syncreticcapital/erigon"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/core/types"
+	ethereum "github.com/ledgerwatch/erigon"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/core/types"
 )
 
 var (

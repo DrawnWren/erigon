@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/syncreticcapital/erigon/common/hexutil"
+	"github.com/ledgerwatch/erigon/common/hexutil"
 	"github.com/stretchr/testify/assert"
 )
 

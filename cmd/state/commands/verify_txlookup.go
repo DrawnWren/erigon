@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/syncreticcapital/erigon/cmd/state/verify"
+	"github.com/ledgerwatch/erigon/cmd/state/verify"
 	"github.com/spf13/cobra"
 )
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/syncreticcapital/erigon/cmd/observer/database"
+	"github.com/ledgerwatch/erigon/cmd/observer/database"
 )
 
 type StatusReport struct {

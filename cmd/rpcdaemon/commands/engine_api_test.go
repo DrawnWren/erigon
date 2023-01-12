@@ -6,7 +6,7 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/gointerfaces"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/remote"
-	"github.com/syncreticcapital/erigon/common"
+	"github.com/ledgerwatch/erigon/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

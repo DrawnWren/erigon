@@ -23,9 +23,9 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/syncreticcapital/erigon/common"
-	"github.com/syncreticcapital/erigon/eth/integrity"
-	"github.com/syncreticcapital/erigon/turbo/trie"
+	"github.com/ledgerwatch/erigon/common"
+	"github.com/ledgerwatch/erigon/eth/integrity"
+	"github.com/ledgerwatch/erigon/turbo/trie"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

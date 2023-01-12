@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	iavl2 "github.com/syncreticcapital/erigon/core/vm/lightclient/iavl"
+	iavl2 "github.com/ledgerwatch/erigon/core/vm/lightclient/iavl"
 	"github.com/tendermint/tendermint/crypto/merkle"
 	cmn "github.com/tendermint/tendermint/libs/common"
 )
